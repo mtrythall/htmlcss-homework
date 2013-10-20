@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>htmlcss-homework / Pseudo Selctors</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <link rel="stylesheet" href="../common/css/normalize.css" />
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+  <header class="page-header">
+    <a href="/" class="logo">A very special blog</a>
+    <nav class="nav nav-global">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <article class="content post-list">
+      <h1>Blog Posts</h1>
+
+      <section class="post">
+        <h2 class="post-title"><a href="/2013/10/xyz">This is a recent post about something</a></h2>
+        <time datetime="2013-10-19 19:00" class="timestamp">October 19, 2013</time>
+        <p class="summary">
+          Nulla lacus urna, elementum sed vestibulum sit amet, lobortis non velit. Donec tempus sed libero ut fringilla. Integer non ipsum ut nibh congue consequat.
+        </p>
+      </section>
+
+      <section class="post">
+        <h2 class="post-title"><a href="/2012/10/xyz">This is a post from last year</a></h2>
+        <time datetime="2012-9-12 19:00" class="timestamp">September 12, 2012</time>
+        <p class="summary">
+          Nulla lacus urna, elementum sed vestibulum sit amet, lobortis non velit. Donec tempus sed libero ut fringilla. Integer non ipsum ut nibh congue consequat.
+        </p>
+      </section>
+
+      <section class="post">
+        <h2 class="post-title"><a href="/2011/10/xyz">This is a post from a few years ago</a></h2>
+        <time datetime="2013-5-23 19:00" class="timestamp">May 23, 2011</time>
+        <p class="summary">
+          Nulla lacus urna, elementum sed vestibulum sit amet, lobortis non velit. Donec tempus sed libero ut fringilla. Integer non ipsum ut nibh congue consequat.
+        </p>
+      </section>
+    </article>
+
+    <aside class="sidebar">
+      <h3>Archives</h3>
+      <nav class="nav nav-archive">
+        <a href="/?2013">2013</a>
+        <a href="/?2012">2012</a>
+        <a href="/?2011">2011</a>
+        <a href="/?2010">2010</a>
+      </nav>
+    </aside>
+  </main>
+
+  <footer class="page-footer">
+    <p class="copyright">&copy; 201X A nice person</p>
+  </footer>
+</div>
+
+
+<!-- Load Fonts -->
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Alegreya:700:latin', 'Roboto::latin', 'Roboto+Condensed::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); 
+</script>
+
+</body>
+</html>
