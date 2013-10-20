@@ -7,8 +7,8 @@ body {
 }
 
 .container {
-    width: 60em;
-    margin: 0 auto;
+    width: 50em;
+    margin: 8em auto 0;
     padding: 2em;
     background: white;
 }
@@ -19,24 +19,31 @@ h1 {
     text-transform: lowercase;
 }
 
-
 /*
  * Header
  */
 .logo {
     display: block;
 
-    margin-bottom: 1.5rem;
+    margin: -4em auto 3rem;
 
-    font-size: 5rem;
+    border-radius: 16em;
+    border: .5em solid antiquewhite;
+
+    background: salmon;
+
+    width: 8em;
+    height: 8em;
+
+    font: 2.5rem 'Alegreya', serif;
+    line-height: 8em;
     text-align: center;
+    text-decoration: none;
+
+    color: white;
 }
 
-.nav {
-    display: block;
-}
-
-.nav a {
+.nav-global a {
     display: inline-block;
     width: 33%;
 
@@ -60,6 +67,7 @@ h1 {
  .post-title {
     font-family: 'Alegreya', serif;
     font-size: 2rem;
+    margin-bottom: .5em;
  }
 
  .timestamp {
