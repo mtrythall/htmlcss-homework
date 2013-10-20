@@ -19,3 +19,12 @@ This assignment tasks the designer with completing a design without modifying HT
 2. On :focus the border should change to a complimenatary color.
 
 ### Primary Navigation
+
+1. The links should have a subtle background color that compliments the layout.
+2. The links should have a noticeable :hover effect
+
+### Posts
+
+1. The first post should have larger copy than others.
+2. The first post should have a slight background color change.
+3. The first letter in the post summary should be bold and larger than the rest of the copy.
